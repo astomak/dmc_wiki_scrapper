@@ -1,8 +1,8 @@
 from selenium import webdriver
 import time
 
-links_list = {"DevOpsKnowledgeSharing": "https://wiki.wdf.sap.corp/wiki/display/DigitalMfg/DevOps+Knowledge+Sharing",
-              "DevOpsFAQ": "https://wiki.wdf.sap.corp/wiki/display/DigitalMfg/DevOps+FAQ",
+links_list = {"DevOpsFAQ": "https://wiki.wdf.sap.corp/wiki/display/DigitalMfg/DevOps+FAQ",
+              "DeveloperFAQ": "https://wiki.wdf.sap.corp/wiki/display/DigitalMfg/Developer+FAQ",
               "DevOpsHowTos": "https://wiki.wdf.sap.corp/wiki/display/DigitalMfg/DevOps+HowTos",
               "DeveloperHowTos": "https://wiki.wdf.sap.corp/wiki/display/DigitalMfg/Developer+HowTos",
               "DevOpsLinks": "https://wiki.wdf.sap.corp/wiki/display/DigitalMfg/DevOps+Links",
@@ -10,9 +10,10 @@ links_list = {"DevOpsKnowledgeSharing": "https://wiki.wdf.sap.corp/wiki/display/
               "Learning": "https://wiki.wdf.sap.corp/wiki/display/DigitalMfg/Learning",
               "CheatSheet": "https://wiki.wdf.sap.corp/wiki/pages/viewpage.action?pageId=2257533992"}
 
-file_name = ["devops_knowledge.html",
-             "devops_faq.html",
+file_name = ["devops_faq.html",
+             "developer_faq.html",
              "devops_how_to.html",
+             "deveoper_how_to.html",
              "devops_links.html",
              "kba_sessions.html",
              "learn.html",
